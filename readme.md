@@ -1,6 +1,6 @@
 # Spad
 
-Spad is a [Kirby](http://getkirby.com) plugin to expose your site data as json for consumption in a single page app or something.
+Spad is a [Kirby](http://getkirby.com) plugin to expose your site data as json for consumption in a single page app.
 
 ## Usage
 
@@ -34,7 +34,7 @@ c::set('spad.route', 'spad');
 
 ## Todo
 
-The json response is pretty simple at the moment. Not sure if I'll make it more robust, but if I do...
+The json response is pretty simple at the moment: recursively includes visible page data and files. Not sure if I'll make it more robust, but if I do...
 
 - [ ] Add page method
 - [ ] Make recursive optional
