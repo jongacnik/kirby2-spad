@@ -113,17 +113,17 @@ Default Spad response for the Kirby starterkit:
       "parent":"",
       "dirname":"1-about",
       "diruri":"1-about",
-      "url":"http://localhost/about",
-      "contentUrl":"http://localhost/content/1-about",
-      "tinyUrl":"http://localhost/x/1ehhfqb",
+      "url":"http://localhost:8080/about",
+      "contentUrl":"http://localhost:8080/content/1-about",
+      "tinyUrl":"http://localhost:8080/x/1ehhfqb",
       "depth":1,
       "uri":"about",
-      "root":"/Users/user/kirby/content/1-about",
+      "root":"/Users/jongacnik/Sites/kirby/content/1-about",
       "uid":"about",
       "slug":"about",
       "num":"1",
       "hash":"1ehhfqb",
-      "modified":1475899712,
+      "modified":1475951682,
       "template":"default",
       "intendedTemplate":"about",
       "content":{
@@ -132,17 +132,17 @@ Default Spad response for the Kirby starterkit:
       },
       "files":[
         {
-          "root":"/Users/user/kirby/content/1-about/about.jpg",
-          "url":"http://localhost/content/1-about/about.jpg",
+          "root":"/Users/jongacnik/Sites/kirby/content/1-about/about.jpg",
+          "url":"http://localhost:8080/content/1-about/about.jpg",
           "hash":"616ed5d915ad7b02d055c981983983b9",
-          "dir":"/Users/user/kirby/content/1-about",
+          "dir":"/Users/jongacnik/Sites/kirby/content/1-about",
           "filename":"about.jpg",
           "name":"about",
           "safeName":"about.jpg",
           "extension":"jpg",
           "size":232182,
           "niceSize":"226.74 kB",
-          "modified":1475899712,
+          "modified":1475951682,
           "mime":"image/jpeg",
           "type":"image",
           "dimensions":{
@@ -166,17 +166,17 @@ Default Spad response for the Kirby starterkit:
       "parent":"",
       "dirname":"2-projects",
       "diruri":"2-projects",
-      "url":"http://localhost/projects",
-      "contentUrl":"http://localhost/content/2-projects",
-      "tinyUrl":"http://localhost/x/poq46c",
+      "url":"http://localhost:8080/projects",
+      "contentUrl":"http://localhost:8080/content/2-projects",
+      "tinyUrl":"http://localhost:8080/x/poq46c",
       "depth":1,
       "uri":"projects",
-      "root":"/Users/user/kirby/content/2-projects",
+      "root":"/Users/jongacnik/Sites/kirby/content/2-projects",
       "uid":"projects",
       "slug":"projects",
       "num":"2",
       "hash":"poq46c",
-      "modified":1475899712,
+      "modified":1475951682,
       "template":"projects",
       "intendedTemplate":"projects",
       "content":{
@@ -193,17 +193,17 @@ Default Spad response for the Kirby starterkit:
           "parent":"projects",
           "dirname":"1-project-a",
           "diruri":"2-projects/1-project-a",
-          "url":"http://localhost/projects/project-a",
-          "contentUrl":"http://localhost/content/2-projects/1-project-a",
-          "tinyUrl":"http://localhost/x/e1kw3g",
+          "url":"http://localhost:8080/projects/project-a",
+          "contentUrl":"http://localhost:8080/content/2-projects/1-project-a",
+          "tinyUrl":"http://localhost:8080/x/e1kw3g",
           "depth":2,
           "uri":"projects/project-a",
-          "root":"/Users/user/kirby/content/2-projects/1-project-a",
+          "root":"/Users/jongacnik/Sites/kirby/content/2-projects/1-project-a",
           "uid":"project-a",
           "slug":"project-a",
           "num":"1",
           "hash":"e1kw3g",
-          "modified":1475899712,
+          "modified":1475951682,
           "template":"project",
           "intendedTemplate":"project",
           "content":{
@@ -214,17 +214,17 @@ Default Spad response for the Kirby starterkit:
           },
           "files":[
             {
-              "root":"/Users/user/kirby/content/2-projects/1-project-a/forrest.jpg",
-              "url":"http://localhost/content/2-projects/1-project-a/forrest.jpg",
+              "root":"/Users/jongacnik/Sites/kirby/content/2-projects/1-project-a/forrest.jpg",
+              "url":"http://localhost:8080/content/2-projects/1-project-a/forrest.jpg",
               "hash":"385a87a789ed2d14af29b456bfd80752",
-              "dir":"/Users/user/kirby/content/2-projects/1-project-a",
+              "dir":"/Users/jongacnik/Sites/kirby/content/2-projects/1-project-a",
               "filename":"forrest.jpg",
               "name":"forrest",
               "safeName":"forrest.jpg",
               "extension":"jpg",
               "size":280900,
               "niceSize":"274.32 kB",
-              "modified":1475899712,
+              "modified":1475951682,
               "mime":"image/jpeg",
               "type":"image",
               "dimensions":{
@@ -238,17 +238,17 @@ Default Spad response for the Kirby starterkit:
               ]
             },
             {
-              "root":"/Users/user/kirby/content/2-projects/1-project-a/green.jpg",
-              "url":"http://localhost/content/2-projects/1-project-a/green.jpg",
+              "root":"/Users/jongacnik/Sites/kirby/content/2-projects/1-project-a/green.jpg",
+              "url":"http://localhost:8080/content/2-projects/1-project-a/green.jpg",
               "hash":"46391b3717002abcd548479f77e2e48f",
-              "dir":"/Users/user/kirby/content/2-projects/1-project-a",
+              "dir":"/Users/jongacnik/Sites/kirby/content/2-projects/1-project-a",
               "filename":"green.jpg",
               "name":"green",
               "safeName":"green.jpg",
               "extension":"jpg",
               "size":306670,
               "niceSize":"299.48 kB",
-              "modified":1475899712,
+              "modified":1475951682,
               "mime":"image/jpeg",
               "type":"image",
               "dimensions":{
@@ -262,17 +262,17 @@ Default Spad response for the Kirby starterkit:
               ]
             },
             {
-              "root":"/Users/user/kirby/content/2-projects/1-project-a/the-sea.jpg",
-              "url":"http://localhost/content/2-projects/1-project-a/the-sea.jpg",
+              "root":"/Users/jongacnik/Sites/kirby/content/2-projects/1-project-a/the-sea.jpg",
+              "url":"http://localhost:8080/content/2-projects/1-project-a/the-sea.jpg",
               "hash":"e4332622c6ff44c4ef7d6e397f0d2ab2",
-              "dir":"/Users/user/kirby/content/2-projects/1-project-a",
+              "dir":"/Users/jongacnik/Sites/kirby/content/2-projects/1-project-a",
               "filename":"the-sea.jpg",
               "name":"the-sea",
               "safeName":"the-sea.jpg",
               "extension":"jpg",
               "size":263038,
               "niceSize":"256.87 kB",
-              "modified":1475899712,
+              "modified":1475951682,
               "mime":"image/jpeg",
               "type":"image",
               "dimensions":{
@@ -296,17 +296,17 @@ Default Spad response for the Kirby starterkit:
           "parent":"projects",
           "dirname":"2-project-b",
           "diruri":"2-projects/2-project-b",
-          "url":"http://localhost/projects/project-b",
-          "contentUrl":"http://localhost/content/2-projects/2-project-b",
-          "tinyUrl":"http://localhost/x/1bluoqu",
+          "url":"http://localhost:8080/projects/project-b",
+          "contentUrl":"http://localhost:8080/content/2-projects/2-project-b",
+          "tinyUrl":"http://localhost:8080/x/1bluoqu",
           "depth":2,
           "uri":"projects/project-b",
-          "root":"/Users/user/kirby/content/2-projects/2-project-b",
+          "root":"/Users/jongacnik/Sites/kirby/content/2-projects/2-project-b",
           "uid":"project-b",
           "slug":"project-b",
           "num":"2",
           "hash":"1bluoqu",
-          "modified":1475899712,
+          "modified":1475951682,
           "template":"project",
           "intendedTemplate":"project",
           "content":{
@@ -317,17 +317,17 @@ Default Spad response for the Kirby starterkit:
           },
           "files":[
             {
-              "root":"/Users/user/kirby/content/2-projects/2-project-b/mountains.jpg",
-              "url":"http://localhost/content/2-projects/2-project-b/mountains.jpg",
+              "root":"/Users/jongacnik/Sites/kirby/content/2-projects/2-project-b/mountains.jpg",
+              "url":"http://localhost:8080/content/2-projects/2-project-b/mountains.jpg",
               "hash":"4a243fce010d8a1266ddd091a9d96f78",
-              "dir":"/Users/user/kirby/content/2-projects/2-project-b",
+              "dir":"/Users/jongacnik/Sites/kirby/content/2-projects/2-project-b",
               "filename":"mountains.jpg",
               "name":"mountains",
               "safeName":"mountains.jpg",
               "extension":"jpg",
               "size":169253,
               "niceSize":"165.29 kB",
-              "modified":1475899712,
+              "modified":1475951682,
               "mime":"image/jpeg",
               "type":"image",
               "dimensions":{
@@ -341,17 +341,17 @@ Default Spad response for the Kirby starterkit:
               ]
             },
             {
-              "root":"/Users/user/kirby/content/2-projects/2-project-b/road.jpg",
-              "url":"http://localhost/content/2-projects/2-project-b/road.jpg",
+              "root":"/Users/jongacnik/Sites/kirby/content/2-projects/2-project-b/road.jpg",
+              "url":"http://localhost:8080/content/2-projects/2-project-b/road.jpg",
               "hash":"f8d91c83779319383a2ee3b6f5294c6d",
-              "dir":"/Users/user/kirby/content/2-projects/2-project-b",
+              "dir":"/Users/jongacnik/Sites/kirby/content/2-projects/2-project-b",
               "filename":"road.jpg",
               "name":"road",
               "safeName":"road.jpg",
               "extension":"jpg",
               "size":268073,
               "niceSize":"261.79 kB",
-              "modified":1475899712,
+              "modified":1475951682,
               "mime":"image/jpeg",
               "type":"image",
               "dimensions":{
@@ -375,17 +375,17 @@ Default Spad response for the Kirby starterkit:
           "parent":"projects",
           "dirname":"3-project-c",
           "diruri":"2-projects/3-project-c",
-          "url":"http://localhost/projects/project-c",
-          "contentUrl":"http://localhost/content/2-projects/3-project-c",
-          "tinyUrl":"http://localhost/x/1p79aog",
+          "url":"http://localhost:8080/projects/project-c",
+          "contentUrl":"http://localhost:8080/content/2-projects/3-project-c",
+          "tinyUrl":"http://localhost:8080/x/1p79aog",
           "depth":2,
           "uri":"projects/project-c",
-          "root":"/Users/user/kirby/content/2-projects/3-project-c",
+          "root":"/Users/jongacnik/Sites/kirby/content/2-projects/3-project-c",
           "uid":"project-c",
           "slug":"project-c",
           "num":"3",
           "hash":"1p79aog",
-          "modified":1475899712,
+          "modified":1475951682,
           "template":"project",
           "intendedTemplate":"project",
           "content":{
@@ -396,17 +396,17 @@ Default Spad response for the Kirby starterkit:
           },
           "files":[
             {
-              "root":"/Users/user/kirby/content/2-projects/3-project-c/hightide.jpg",
-              "url":"http://localhost/content/2-projects/3-project-c/hightide.jpg",
+              "root":"/Users/jongacnik/Sites/kirby/content/2-projects/3-project-c/hightide.jpg",
+              "url":"http://localhost:8080/content/2-projects/3-project-c/hightide.jpg",
               "hash":"78a0dde966c390550063dd773bad9074",
-              "dir":"/Users/user/kirby/content/2-projects/3-project-c",
+              "dir":"/Users/jongacnik/Sites/kirby/content/2-projects/3-project-c",
               "filename":"hightide.jpg",
               "name":"hightide",
               "safeName":"hightide.jpg",
               "extension":"jpg",
               "size":208192,
               "niceSize":"203.31 kB",
-              "modified":1475899712,
+              "modified":1475951682,
               "mime":"image/jpeg",
               "type":"image",
               "dimensions":{
@@ -420,17 +420,17 @@ Default Spad response for the Kirby starterkit:
               ]
             },
             {
-              "root":"/Users/user/kirby/content/2-projects/3-project-c/kermit-the-fog.jpg",
-              "url":"http://localhost/content/2-projects/3-project-c/kermit-the-fog.jpg",
+              "root":"/Users/jongacnik/Sites/kirby/content/2-projects/3-project-c/kermit-the-fog.jpg",
+              "url":"http://localhost:8080/content/2-projects/3-project-c/kermit-the-fog.jpg",
               "hash":"667141bffb9f5fcc8ec3a13f55a3e093",
-              "dir":"/Users/user/kirby/content/2-projects/3-project-c",
+              "dir":"/Users/jongacnik/Sites/kirby/content/2-projects/3-project-c",
               "filename":"kermit-the-fog.jpg",
               "name":"kermit-the-fog",
               "safeName":"kermit-the-fog.jpg",
               "extension":"jpg",
               "size":268191,
               "niceSize":"261.91 kB",
-              "modified":1475899712,
+              "modified":1475951682,
               "mime":"image/jpeg",
               "type":"image",
               "dimensions":{
@@ -456,51 +456,22 @@ Default Spad response for the Kirby starterkit:
       "parent":"",
       "dirname":"3-contact",
       "diruri":"3-contact",
-      "url":"http://localhost/contact",
-      "contentUrl":"http://localhost/content/3-contact",
-      "tinyUrl":"http://localhost/x/l7027s",
+      "url":"http://localhost:8080/contact",
+      "contentUrl":"http://localhost:8080/content/3-contact",
+      "tinyUrl":"http://localhost:8080/x/l7027s",
       "depth":1,
       "uri":"contact",
-      "root":"/Users/user/kirby/content/3-contact",
+      "root":"/Users/jongacnik/Sites/kirby/content/3-contact",
       "uid":"contact",
       "slug":"contact",
       "num":"3",
       "hash":"l7027s",
-      "modified":1475899712,
+      "modified":1475951682,
       "template":"default",
       "intendedTemplate":"contact",
       "content":{
         "title":"Contact",
-        "text":[
-          {
-            "(link":{
-              "http://getkirby.com/support text":"Kirby's support page)"
-            }
-          },
-          {
-            "(link":{
-              "http://forum.getkirby.com text":"Kirby's forum)"
-            }
-          },
-          {
-            "(link":{
-              "http://github.com/getkirby text":"Kirby on Github)"
-            }
-          },
-          "<support@getkirby.com>",
-          {
-            "Follow Kirby on Twitter (twitter":"@getkirby)"
-          },
-          {
-            "Follow Bastian on Twitter (twitter":"@bastianallgeier)"
-          },
-          {
-            "Follow Nico on Twitter (twitter":"@distantnative)"
-          },
-          {
-            "Follow Sascha on Twitter (twitter":"@sashtown)"
-          }
-        ]
+        "text":"## Get in touch\r\n\r\n- (link: http://getkirby.com/support text: Kirby's support page)\r\n- (link: http://forum.getkirby.com text: Kirby's forum)\r\n- (link: http://github.com/getkirby text: Kirby on Github)\r\n- <support@getkirby.com>\r\n\r\n## Follow us on Twitter\r\n\r\n- Follow Kirby on Twitter (twitter: @getkirby)\r\n- Follow Bastian on Twitter (twitter: @bastianallgeier)\r\n- Follow Nico on Twitter (twitter: @distantnative)\r\n- Follow Sascha on Twitter (twitter: @sashtown)"
       },
       "files":[
 

@@ -13,15 +13,6 @@ $spad = function () {
     $tree = [];
     if ($parent->id()) {
       $tree = array_merge($tree, $parent->toArray());
-      // parse yaml fields
-      $tree['content'] = array_map(function ($n) use ($tree) {
-        $parsed = yaml($n);
-        if (isset($parsed[0]) && is_array($parsed[0])) {
-          return $parsed;
-        } else {
-          return $n;
-        }
-      }, $tree['content']);
     }
     $tree['files'] = $parent->files()->toArray();
     $tree['children'] = array_map(function ($n) {
