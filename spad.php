@@ -14,7 +14,7 @@ $spad = function () {
     if ($parent->id()) {
       $tree = array_merge($tree, $parent->toArray());
     }
-    $tree['files'] = $parent->files()->toArray();
+    $tree['files'] = $parent->files()->sortBy('sort', 'asc')->toArray();
     $tree['children'] = array_map(function ($n) {
       return buildTree(site()->find($n['id']));
     }, $parent->children()->visible()->toArray());
