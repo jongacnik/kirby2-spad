@@ -13,6 +13,8 @@ $spad = function () {
     $tree = [];
     if ($parent->id()) {
       $tree = array_merge($tree, $parent->toArray());
+    } else {
+      $tree['content'] = $parent->content()->toArray();
     }
     $tree['files'] = $parent->files()->sortBy('sort', 'asc')->toArray();
     $tree['children'] = array_map(function ($n) {
