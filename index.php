@@ -26,15 +26,18 @@ $spad = function () {
   return $filterAll(buildTree(site()));
 };
 
-$kirby->set('site::method', kirby()->option('spad.method', 'spad'), function () use ($spad) {
-  return json_encode($spad());
-});
-
-kirby()->routes([
-  [
-    'pattern' => kirby()->option('spad.route', 'spad'),
-    'action' => function () use ($spad) {
+Kirby::plugin('jg/spad', [
+  'siteMethods' => [
+    'spad' => function () use ($spad) {
       return response::json($spad());
     }
+  ],
+  'routes' => [
+    [
+      'pattern' => 'spad',
+      'action' => function () use ($spad) {
+        return response::json($spad());
+      }
+    ]
   ]
 ]);
