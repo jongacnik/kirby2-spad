@@ -16,6 +16,8 @@ $spad = function () {
     } else {
       $tree['content'] = $parent->content()->toArray();
     }
+    $tree['template'] = $parent->intendedtemplate()->name();
+    $tree['status'] = $parent->status();
     $tree['files'] = $parent->files()->sortBy('sort', 'asc')->toArray();
     $tree['children'] = array_map(function ($n) {
       return buildTree(site()->find($n['id']));
