@@ -16,6 +16,8 @@ $spad = function () {
     } else {
       $tree['content'] = $parent->content()->toArray();
     }
+    $tree['template'] = $parent->intendedtemplate()->name();
+    $tree['status'] = $parent->status();
     $tree['files'] = $parent->files()->sortBy('sort', 'asc')->toArray();
     $tree['children'] = array_map(function ($n) {
       return buildTree(site()->find($n['id']));
@@ -26,15 +28,18 @@ $spad = function () {
   return $filterAll(buildTree(site()));
 };
 
-$kirby->set('site::method', kirby()->option('spad.method', 'spad'), function () use ($spad) {
-  return json_encode($spad());
-});
-
-kirby()->routes([
-  [
-    'pattern' => kirby()->option('spad.route', 'spad'),
-    'action' => function () use ($spad) {
+Kirby::plugin('jg/spad', [
+  'siteMethods' => [
+    'spad' => function () use ($spad) {
       return response::json($spad());
     }
+  ],
+  'routes' => [
+    [
+      'pattern' => 'spad',
+      'action' => function () use ($spad) {
+        return response::json($spad());
+      }
+    ]
   ]
 ]);
